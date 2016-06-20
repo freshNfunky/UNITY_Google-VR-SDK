@@ -8,6 +8,7 @@ __NOTE:__ *project can be forked but due to limitations of large files within gi
 "/Testing_Google-VR/Assets/Plugins/iOS/" from the [Google VR SDK](https://github.com/googlevr/gvr-unity-sdk)*
 
 for feedback and questions please visit: [www.felixschaller.com](http://www.felixschaller.com/index.php/contact)
+
 First Demo Video: [Demo-Video](https://vimeo.com/171471437)
 
 ...more to come soon.
