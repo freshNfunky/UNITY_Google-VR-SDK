@@ -3,6 +3,7 @@ based on Google VR SDK
 
 This project is testing the Google VR SDK for Unity3D with multible 3D Environments.
 It was compiled and tested for iOS 9.3
+
 __NOTE:__ *project can be forked but due to limitations of large files within github. the project runs only by adding "libgvrunity.a" in 
 "/Testing_Google-VR/Assets/Plugins/iOS/" from the [Google VR SDK](https://github.com/googlevr/gvr-unity-sdk)*
 
