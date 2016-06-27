@@ -1,4 +1,4 @@
-Shader "Standard (Specular setup & Cull Off)"
+Shader "Standard (Culling_off)"
 {
 	Properties
 	{
@@ -8,8 +8,8 @@ Shader "Standard (Specular setup & Cull Off)"
 		_Cutoff("Alpha Cutoff", Range(0.0, 1.0)) = 0.5
 
 		_Glossiness("Smoothness", Range(0.0, 1.0)) = 0.5
-		_SpecColor("Specular", Color) = (0.2,0.2,0.2)
-		_SpecGlossMap("Specular", 2D) = "white" {}
+		[Gamma] _Metallic("Metallic", Range(0.0, 1.0)) = 0.0
+		_MetallicGlossMap("Metallic", 2D) = "white" {}
 
 		_BumpScale("Scale", Float) = 1.0
 		_BumpMap("Normal Map", 2D) = "bump" {}
@@ -40,7 +40,7 @@ Shader "Standard (Specular setup & Cull Off)"
 	}
 
 	CGINCLUDE
-		#define UNITY_SETUP_BRDF_INPUT SpecularSetup
+		#define UNITY_SETUP_BRDF_INPUT MetallicSetup
 	ENDCG
 
 	SubShader
@@ -69,16 +69,17 @@ Shader "Standard (Specular setup & Cull Off)"
 			#pragma shader_feature _NORMALMAP
 			#pragma shader_feature _ _ALPHATEST_ON _ALPHABLEND_ON _ALPHAPREMULTIPLY_ON
 			#pragma shader_feature _EMISSION
-			#pragma shader_feature _SPECGLOSSMAP
+			#pragma shader_feature _METALLICGLOSSMAP 
 			#pragma shader_feature ___ _DETAIL_MULX2
 			#pragma shader_feature _PARALLAXMAP
 			
 			#pragma multi_compile_fwdbase
 			#pragma multi_compile_fog
+				
+			#pragma vertex vertForwardBase
+			#pragma fragment fragForwardBase
 
-			#pragma vertex vertBase
-			#pragma fragment fragBase
-			#include "UnityStandardCoreForward.cginc"
+			#include "UnityStandardCore.cginc"
 
 			ENDCG
 		}
@@ -103,16 +104,17 @@ Shader "Standard (Specular setup & Cull Off)"
 			
 			#pragma shader_feature _NORMALMAP
 			#pragma shader_feature _ _ALPHATEST_ON _ALPHABLEND_ON _ALPHAPREMULTIPLY_ON
-			#pragma shader_feature _SPECGLOSSMAP
+			#pragma shader_feature _METALLICGLOSSMAP
 			#pragma shader_feature ___ _DETAIL_MULX2
 			#pragma shader_feature _PARALLAXMAP
 			
 			#pragma multi_compile_fwdadd_fullshadows
 			#pragma multi_compile_fog
+			
+			#pragma vertex vertForwardAdd
+			#pragma fragment fragForwardAdd
 
-			#pragma vertex vertAdd
-			#pragma fragment fragAdd
-			#include "UnityStandardCoreForward.cginc"
+			#include "UnityStandardCore.cginc"
 
 			ENDCG
 		}
@@ -160,7 +162,7 @@ Shader "Standard (Specular setup & Cull Off)"
 			#pragma shader_feature _NORMALMAP
 			#pragma shader_feature _ _ALPHATEST_ON _ALPHABLEND_ON _ALPHAPREMULTIPLY_ON
 			#pragma shader_feature _EMISSION
-			#pragma shader_feature _SPECGLOSSMAP
+			#pragma shader_feature _METALLICGLOSSMAP
 			#pragma shader_feature ___ _DETAIL_MULX2
 			#pragma shader_feature _PARALLAXMAP
 
@@ -192,7 +194,7 @@ Shader "Standard (Specular setup & Cull Off)"
 			#pragma fragment frag_meta
 
 			#pragma shader_feature _EMISSION
-			#pragma shader_feature _SPECGLOSSMAP
+			#pragma shader_feature _METALLICGLOSSMAP
 			#pragma shader_feature ___ _DETAIL_MULX2
 
 			#include "UnityStandardMeta.cginc"
@@ -221,18 +223,19 @@ Shader "Standard (Specular setup & Cull Off)"
 			#pragma shader_feature _NORMALMAP
 			#pragma shader_feature _ _ALPHATEST_ON _ALPHABLEND_ON _ALPHAPREMULTIPLY_ON
 			#pragma shader_feature _EMISSION 
-			#pragma shader_feature _SPECGLOSSMAP
+			#pragma shader_feature _METALLICGLOSSMAP 
 			#pragma shader_feature ___ _DETAIL_MULX2
 			// SM2.0: NOT SUPPORTED shader_feature _PARALLAXMAP
 
-			#pragma skip_variants SHADOWS_SOFT DYNAMICLIGHTMAP_ON DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
-			
+			#pragma skip_variants SHADOWS_SOFT DIRLIGHTMAP_COMBINED DIRLIGHTMAP_SEPARATE
+
 			#pragma multi_compile_fwdbase
 			#pragma multi_compile_fog
+	
+			#pragma vertex vertForwardBase
+			#pragma fragment fragForwardBase
 
-			#pragma vertex vertBase
-			#pragma fragment fragBase
-			#include "UnityStandardCoreForward.cginc"
+			#include "UnityStandardCore.cginc"
 
 			ENDCG
 		}
@@ -252,7 +255,7 @@ Shader "Standard (Specular setup & Cull Off)"
 
 			#pragma shader_feature _NORMALMAP
 			#pragma shader_feature _ _ALPHATEST_ON _ALPHABLEND_ON _ALPHAPREMULTIPLY_ON
-			#pragma shader_feature _SPECGLOSSMAP
+			#pragma shader_feature _METALLICGLOSSMAP
 			#pragma shader_feature ___ _DETAIL_MULX2
 			// SM2.0: NOT SUPPORTED shader_feature _PARALLAXMAP
 			#pragma skip_variants SHADOWS_SOFT
@@ -260,9 +263,10 @@ Shader "Standard (Specular setup & Cull Off)"
 			#pragma multi_compile_fwdadd_fullshadows
 			#pragma multi_compile_fog
 			
-			#pragma vertex vertAdd
-			#pragma fragment fragAdd
-			#include "UnityStandardCoreForward.cginc"
+			#pragma vertex vertForwardAdd
+			#pragma fragment fragForwardAdd
+
+			#include "UnityStandardCore.cginc"
 
 			ENDCG
 		}
@@ -288,6 +292,7 @@ Shader "Standard (Specular setup & Cull Off)"
 
 			ENDCG
 		}
+
 		// ------------------------------------------------------------------
 		// Extracts information for lightmapping, GI (emission, albedo, ...)
 		// This pass it not used during regular rendering.
@@ -303,13 +308,14 @@ Shader "Standard (Specular setup & Cull Off)"
 			#pragma fragment frag_meta
 
 			#pragma shader_feature _EMISSION
-			#pragma shader_feature _SPECGLOSSMAP
+			#pragma shader_feature _METALLICGLOSSMAP
 			#pragma shader_feature ___ _DETAIL_MULX2
 
 			#include "UnityStandardMeta.cginc"
 			ENDCG
 		}
 	}
+
 
 	FallBack "VertexLit"
 	CustomEditor "StandardShaderGUI"
