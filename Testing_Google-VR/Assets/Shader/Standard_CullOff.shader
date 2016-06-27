@@ -58,6 +58,9 @@ Shader "Standard (Culling_off)"
 
 			Blend [_SrcBlend] [_DstBlend]
 			ZWrite [_ZWrite]
+			
+			//[FTC]: Added Backface Culling for Two Faced Rendering 
+			Cull Off
 
 			CGPROGRAM
 			#pragma target 3.0
@@ -93,6 +96,9 @@ Shader "Standard (Culling_off)"
 			Fog { Color (0,0,0,0) } // in additive pass fog should be black
 			ZWrite Off
 			ZTest LEqual
+			
+			//[FTC]: Added Backface Culling for Two Faced Rendering 
+			Cull Off
 
 			CGPROGRAM
 			#pragma target 3.0
@@ -150,6 +156,9 @@ Shader "Standard (Culling_off)"
 		{
 			Name "DEFERRED"
 			Tags { "LightMode" = "Deferred" }
+			
+			//[FTC]: Added Backface Culling for Two Faced Rendering 
+			Cull Off
 
 			CGPROGRAM
 			#pragma target 3.0
@@ -216,6 +225,9 @@ Shader "Standard (Culling_off)"
 
 			Blend [_SrcBlend] [_DstBlend]
 			ZWrite [_ZWrite]
+			
+			//[FTC]: Added Backface Culling for Two Faced Rendering 
+			Cull Off
 
 			CGPROGRAM
 			#pragma target 2.0
@@ -249,6 +261,9 @@ Shader "Standard (Culling_off)"
 			Fog { Color (0,0,0,0) } // in additive pass fog should be black
 			ZWrite Off
 			ZTest LEqual
+			
+			//[FTC]: Added Backface Culling for Two Faced Rendering 
+			Cull Off
 			
 			CGPROGRAM
 			#pragma target 2.0
