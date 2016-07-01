@@ -1,0 +1,814 @@
+fileFormatVersion: 2
+guid: 6fb5049c1ceba46a8a6fd4a80e7c5ec3
+timeCreated: 1466158196
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: curve1
+    100002: curve1 1
+    100004: curve1 2
+    100006: curve43
+    100008: curve43 1
+    100010: curve43 2
+    100012: curve44
+    100014: curve44 1
+    100016: curve44 2
+    100018: curve45
+    100020: curve45 1
+    100022: curve45 2
+    100024: curve46
+    100026: curve46 1
+    100028: curve46 2
+    100030: curve47
+    100032: curve47 1
+    100034: curve47 2
+    100036: curve48
+    100038: curve48 1
+    100040: curve48 2
+    100042: curve49
+    100044: curve49 1
+    100046: curve49 2
+    100048: curve50
+    100050: curve50 1
+    100052: curve50 2
+    100054: curve51
+    100056: curve51 1
+    100058: curve51 2
+    100060: curve52
+    100062: curve52 1
+    100064: curve52 2
+    100066: curve53
+    100068: curve53 1
+    100070: curve53 2
+    100072: curve54
+    100074: curve54 1
+    100076: curve54 2
+    100078: curve55
+    100080: curve55 1
+    100082: curve55 2
+    100084: curve56
+    100086: curve56 1
+    100088: curve56 2
+    100090: curve57
+    100092: curve57 1
+    100094: curve57 2
+    100096: curve58
+    100098: curve58 1
+    100100: curve58 2
+    100102: curve59
+    100104: curve59 1
+    100106: curve59 2
+    100108: curve60
+    100110: curve60 1
+    100112: curve60 2
+    100114: curve61
+    100116: curve61 1
+    100118: curve61 2
+    100120: curve62
+    100122: curve62 1
+    100124: curve62 2
+    100126: curve63
+    100128: curve63 1
+    100130: curve63 2
+    100132: curve64
+    100134: curve64 1
+    100136: curve64 2
+    100138: curve65
+    100140: curve65 1
+    100142: curve65 2
+    100144: curve66
+    100146: curve66 1
+    100148: curve66 2
+    100150: curve67
+    100152: curve67 1
+    100154: curve67 2
+    100156: curve68
+    100158: curve68 1
+    100160: curve68 2
+    100162: curve69
+    100164: curve69 1
+    100166: curve69 2
+    100168: curve70
+    100170: curve70 1
+    100172: curve70 2
+    100174: curve71
+    100176: curve71 1
+    100178: curve71 2
+    100180: curve72
+    100182: curve72 1
+    100184: curve72 2
+    100186: curve73
+    100188: curve73 1
+    100190: curve73 2
+    100192: curve74
+    100194: curve74 1
+    100196: curve74 2
+    100198: curve75
+    100200: curve75 1
+    100202: curve75 2
+    100204: curve76
+    100206: curve76 1
+    100208: curve76 2
+    100210: curve77
+    100212: curve77 1
+    100214: curve77 2
+    100216: curve78
+    100218: curve78 1
+    100220: curve78 2
+    100222: curve79
+    100224: curve79 1
+    100226: curve79 2
+    100228: curve80
+    100230: curve80 1
+    100232: curve80 2
+    100234: curve81
+    100236: curve81 1
+    100238: curve81 2
+    100240: curve82
+    100242: curve82 1
+    100244: curve82 2
+    100246: DONT_TRANSFORM1
+    100248: DONT_TRANSFORM2
+    100250: DONT_TRANSFORM3
+    100252: //RootNode
+    100254: follicle1
+    100256: follicle1 1
+    100258: follicle1 2
+    100260: group
+    100262: hairSystem2OutputCurves
+    100264: hairSystem2OutputCurves 1
+    100266: hairSystem2OutputCurves 2
+    100268: HAIRSYSTEM_NoTransform
+    100270: HAIRSYSTEM_NoTransform 1
+    100272: HAIRSYSTEM_NoTransform 2
+    100274: ikHandle1
+    100276: ikHandle1 1
+    100278: ikHandle1 2
+    100280: ikHandle10
+    100282: ikHandle10 1
+    100284: ikHandle10 2
+    100286: ikHandle11
+    100288: ikHandle11 1
+    100290: ikHandle11 2
+    100292: ikHandle12
+    100294: ikHandle12 1
+    100296: ikHandle12 2
+    100298: ikHandle13
+    100300: ikHandle13 1
+    100302: ikHandle13 2
+    100304: ikHandle14
+    100306: ikHandle14 1
+    100308: ikHandle14 2
+    100310: ikHandle15
+    100312: ikHandle15 1
+    100314: ikHandle15 2
+    100316: ikHandle16
+    100318: ikHandle16 1
+    100320: ikHandle16 2
+    100322: ikHandle17
+    100324: ikHandle17 1
+    100326: ikHandle17 2
+    100328: ikHandle18
+    100330: ikHandle18 1
+    100332: ikHandle18 2
+    100334: ikHandle19
+    100336: ikHandle19 1
+    100338: ikHandle19 2
+    100340: ikHandle2
+    100342: ikHandle2 1
+    100344: ikHandle2 2
+    100346: ikHandle20
+    100348: ikHandle20 1
+    100350: ikHandle20 2
+    100352: ikHandle21
+    100354: ikHandle21 1
+    100356: ikHandle21 2
+    100358: ikHandle22
+    100360: ikHandle22 1
+    100362: ikHandle22 2
+    100364: ikHandle23
+    100366: ikHandle23 1
+    100368: ikHandle23 2
+    100370: ikHandle24
+    100372: ikHandle24 1
+    100374: ikHandle24 2
+    100376: ikHandle25
+    100378: ikHandle25 1
+    100380: ikHandle25 2
+    100382: ikHandle26
+    100384: ikHandle26 1
+    100386: ikHandle26 2
+    100388: ikHandle27
+    100390: ikHandle27 1
+    100392: ikHandle27 2
+    100394: ikHandle28
+    100396: ikHandle28 1
+    100398: ikHandle28 2
+    100400: ikHandle29
+    100402: ikHandle29 1
+    100404: ikHandle29 2
+    100406: ikHandle3
+    100408: ikHandle3 1
+    100410: ikHandle3 2
+    100412: ikHandle30
+    100414: ikHandle30 1
+    100416: ikHandle30 2
+    100418: ikHandle31
+    100420: ikHandle31 1
+    100422: ikHandle31 2
+    100424: ikHandle32
+    100426: ikHandle32 1
+    100428: ikHandle32 2
+    100430: ikHandle33
+    100432: ikHandle33 1
+    100434: ikHandle33 2
+    100436: ikHandle34
+    100438: ikHandle34 1
+    100440: ikHandle34 2
+    100442: ikHandle35
+    100444: ikHandle35 1
+    100446: ikHandle35 2
+    100448: ikHandle36
+    100450: ikHandle36 1
+    100452: ikHandle36 2
+    100454: ikHandle37
+    100456: ikHandle37 1
+    100458: ikHandle37 2
+    100460: ikHandle38
+    100462: ikHandle38 1
+    100464: ikHandle38 2
+    100466: ikHandle39
+    100468: ikHandle39 1
+    100470: ikHandle39 2
+    100472: ikHandle4
+    100474: ikHandle4 1
+    100476: ikHandle4 2
+    100478: ikHandle40
+    100480: ikHandle40 1
+    100482: ikHandle40 2
+    100484: ikHandle41
+    100486: ikHandle41 1
+    100488: ikHandle41 2
+    100490: ikHandle5
+    100492: ikHandle5 1
+    100494: ikHandle5 2
+    100496: ikHandle6
+    100498: ikHandle6 1
+    100500: ikHandle6 2
+    100502: ikHandle7
+    100504: ikHandle7 1
+    100506: ikHandle7 2
+    100508: ikHandle8
+    100510: ikHandle8 1
+    100512: ikHandle8 2
+    100514: ikHandle9
+    100516: ikHandle9 1
+    100518: ikHandle9 2
+    100520: IKHandles
+    100522: IKHandles 1
+    100524: IKHandles 2
+    100526: MESH
+    100528: MESH 1
+    100530: MESH 2
+    100532: pCube1
+    100534: polySurface2611
+    100536: polySurface2612
+    100538: polySurface2613
+    100540: polySurface2614
+    100542: polySurface2615
+    100544: polySurface2616
+    100546: polySurface2617
+    100548: polySurface2618
+    100550: polySurface4705
+    100552: polySurface4705 1
+    100554: polySurface4705 2
+    100556: polySurface4706
+    100558: polySurface4707
+    100560: polySurface4708
+    100562: polySurface4709
+    100564: polySurface4710
+    100566: polySurface4711
+    100568: polySurface4712
+    100570: polySurface4713
+    100572: polySurface4714
+    100574: polySurface4715
+    100576: polySurface4716
+    100578: polySurface4717
+    100580: polySurface4718
+    100582: polySurface4719
+    100584: polySurface4720
+    100586: polySurface4721
+    100588: polySurface4722
+    100590: polySurface4723
+    100592: polySurface4724
+    100594: polySurface4725
+    100596: polySurface4726
+    100598: polySurface4727
+    100600: polySurface4728
+    100602: polySurface4729
+    100604: polySurface4730
+    100606: polySurface4731
+    100608: polySurface4732
+    100610: polySurface4733
+    100612: polySurface4734
+    100614: polySurface4735
+    100616: polySurface4736
+    100618: polySurface4737
+    100620: polySurface4738
+    100622: polySurface4739
+    100624: polySurface4740
+    100626: pPlane1
+    100628: pPlane2
+    100630: pSphere1
+    100632: transform1
+    100634: transform10
+    100636: transform11
+    100638: transform12
+    100640: transform13
+    100642: transform14
+    100644: transform15
+    100646: transform16
+    100648: transform17
+    100650: transform18
+    100652: transform19
+    100654: transform2
+    100656: transform20
+    100658: transform21
+    100660: transform22
+    100662: transform23
+    100664: transform24
+    100666: transform25
+    100668: transform26
+    100670: transform27
+    100672: transform28
+    100674: transform29
+    100676: transform3
+    100678: transform30
+    100680: transform31
+    100682: transform32
+    100684: transform33
+    100686: transform34
+    100688: transform35
+    100690: transform36
+    100692: transform37
+    100694: transform38
+    100696: transform39
+    100698: transform4
+    100700: transform40
+    100702: transform5
+    100704: transform6
+    100706: transform7
+    100708: transform8
+    100710: transform9
+    400000: curve1
+    400002: curve1 1
+    400004: curve1 2
+    400006: curve43
+    400008: curve43 1
+    400010: curve43 2
+    400012: curve44
+    400014: curve44 1
+    400016: curve44 2
+    400018: curve45
+    400020: curve45 1
+    400022: curve45 2
+    400024: curve46
+    400026: curve46 1
+    400028: curve46 2
+    400030: curve47
+    400032: curve47 1
+    400034: curve47 2
+    400036: curve48
+    400038: curve48 1
+    400040: curve48 2
+    400042: curve49
+    400044: curve49 1
+    400046: curve49 2
+    400048: curve50
+    400050: curve50 1
+    400052: curve50 2
+    400054: curve51
+    400056: curve51 1
+    400058: curve51 2
+    400060: curve52
+    400062: curve52 1
+    400064: curve52 2
+    400066: curve53
+    400068: curve53 1
+    400070: curve53 2
+    400072: curve54
+    400074: curve54 1
+    400076: curve54 2
+    400078: curve55
+    400080: curve55 1
+    400082: curve55 2
+    400084: curve56
+    400086: curve56 1
+    400088: curve56 2
+    400090: curve57
+    400092: curve57 1
+    400094: curve57 2
+    400096: curve58
+    400098: curve58 1
+    400100: curve58 2
+    400102: curve59
+    400104: curve59 1
+    400106: curve59 2
+    400108: curve60
+    400110: curve60 1
+    400112: curve60 2
+    400114: curve61
+    400116: curve61 1
+    400118: curve61 2
+    400120: curve62
+    400122: curve62 1
+    400124: curve62 2
+    400126: curve63
+    400128: curve63 1
+    400130: curve63 2
+    400132: curve64
+    400134: curve64 1
+    400136: curve64 2
+    400138: curve65
+    400140: curve65 1
+    400142: curve65 2
+    400144: curve66
+    400146: curve66 1
+    400148: curve66 2
+    400150: curve67
+    400152: curve67 1
+    400154: curve67 2
+    400156: curve68
+    400158: curve68 1
+    400160: curve68 2
+    400162: curve69
+    400164: curve69 1
+    400166: curve69 2
+    400168: curve70
+    400170: curve70 1
+    400172: curve70 2
+    400174: curve71
+    400176: curve71 1
+    400178: curve71 2
+    400180: curve72
+    400182: curve72 1
+    400184: curve72 2
+    400186: curve73
+    400188: curve73 1
+    400190: curve73 2
+    400192: curve74
+    400194: curve74 1
+    400196: curve74 2
+    400198: curve75
+    400200: curve75 1
+    400202: curve75 2
+    400204: curve76
+    400206: curve76 1
+    400208: curve76 2
+    400210: curve77
+    400212: curve77 1
+    400214: curve77 2
+    400216: curve78
+    400218: curve78 1
+    400220: curve78 2
+    400222: curve79
+    400224: curve79 1
+    400226: curve79 2
+    400228: curve80
+    400230: curve80 1
+    400232: curve80 2
+    400234: curve81
+    400236: curve81 1
+    400238: curve81 2
+    400240: curve82
+    400242: curve82 1
+    400244: curve82 2
+    400246: DONT_TRANSFORM1
+    400248: DONT_TRANSFORM2
+    400250: DONT_TRANSFORM3
+    400252: //RootNode
+    400254: follicle1
+    400256: follicle1 1
+    400258: follicle1 2
+    400260: group
+    400262: hairSystem2OutputCurves
+    400264: hairSystem2OutputCurves 1
+    400266: hairSystem2OutputCurves 2
+    400268: HAIRSYSTEM_NoTransform
+    400270: HAIRSYSTEM_NoTransform 1
+    400272: HAIRSYSTEM_NoTransform 2
+    400274: ikHandle1
+    400276: ikHandle1 1
+    400278: ikHandle1 2
+    400280: ikHandle10
+    400282: ikHandle10 1
+    400284: ikHandle10 2
+    400286: ikHandle11
+    400288: ikHandle11 1
+    400290: ikHandle11 2
+    400292: ikHandle12
+    400294: ikHandle12 1
+    400296: ikHandle12 2
+    400298: ikHandle13
+    400300: ikHandle13 1
+    400302: ikHandle13 2
+    400304: ikHandle14
+    400306: ikHandle14 1
+    400308: ikHandle14 2
+    400310: ikHandle15
+    400312: ikHandle15 1
+    400314: ikHandle15 2
+    400316: ikHandle16
+    400318: ikHandle16 1
+    400320: ikHandle16 2
+    400322: ikHandle17
+    400324: ikHandle17 1
+    400326: ikHandle17 2
+    400328: ikHandle18
+    400330: ikHandle18 1
+    400332: ikHandle18 2
+    400334: ikHandle19
+    400336: ikHandle19 1
+    400338: ikHandle19 2
+    400340: ikHandle2
+    400342: ikHandle2 1
+    400344: ikHandle2 2
+    400346: ikHandle20
+    400348: ikHandle20 1
+    400350: ikHandle20 2
+    400352: ikHandle21
+    400354: ikHandle21 1
+    400356: ikHandle21 2
+    400358: ikHandle22
+    400360: ikHandle22 1
+    400362: ikHandle22 2
+    400364: ikHandle23
+    400366: ikHandle23 1
+    400368: ikHandle23 2
+    400370: ikHandle24
+    400372: ikHandle24 1
+    400374: ikHandle24 2
+    400376: ikHandle25
+    400378: ikHandle25 1
+    400380: ikHandle25 2
+    400382: ikHandle26
+    400384: ikHandle26 1
+    400386: ikHandle26 2
+    400388: ikHandle27
+    400390: ikHandle27 1
+    400392: ikHandle27 2
+    400394: ikHandle28
+    400396: ikHandle28 1
+    400398: ikHandle28 2
+    400400: ikHandle29
+    400402: ikHandle29 1
+    400404: ikHandle29 2
+    400406: ikHandle3
+    400408: ikHandle3 1
+    400410: ikHandle3 2
+    400412: ikHandle30
+    400414: ikHandle30 1
+    400416: ikHandle30 2
+    400418: ikHandle31
+    400420: ikHandle31 1
+    400422: ikHandle31 2
+    400424: ikHandle32
+    400426: ikHandle32 1
+    400428: ikHandle32 2
+    400430: ikHandle33
+    400432: ikHandle33 1
+    400434: ikHandle33 2
+    400436: ikHandle34
+    400438: ikHandle34 1
+    400440: ikHandle34 2
+    400442: ikHandle35
+    400444: ikHandle35 1
+    400446: ikHandle35 2
+    400448: ikHandle36
+    400450: ikHandle36 1
+    400452: ikHandle36 2
+    400454: ikHandle37
+    400456: ikHandle37 1
+    400458: ikHandle37 2
+    400460: ikHandle38
+    400462: ikHandle38 1
+    400464: ikHandle38 2
+    400466: ikHandle39
+    400468: ikHandle39 1
+    400470: ikHandle39 2
+    400472: ikHandle4
+    400474: ikHandle4 1
+    400476: ikHandle4 2
+    400478: ikHandle40
+    400480: ikHandle40 1
+    400482: ikHandle40 2
+    400484: ikHandle41
+    400486: ikHandle41 1
+    400488: ikHandle41 2
+    400490: ikHandle5
+    400492: ikHandle5 1
+    400494: ikHandle5 2
+    400496: ikHandle6
+    400498: ikHandle6 1
+    400500: ikHandle6 2
+    400502: ikHandle7
+    400504: ikHandle7 1
+    400506: ikHandle7 2
+    400508: ikHandle8
+    400510: ikHandle8 1
+    400512: ikHandle8 2
+    400514: ikHandle9
+    400516: ikHandle9 1
+    400518: ikHandle9 2
+    400520: IKHandles
+    400522: IKHandles 1
+    400524: IKHandles 2
+    400526: MESH
+    400528: MESH 1
+    400530: MESH 2
+    400532: pCube1
+    400534: polySurface2611
+    400536: polySurface2612
+    400538: polySurface2613
+    400540: polySurface2614
+    400542: polySurface2615
+    400544: polySurface2616
+    400546: polySurface2617
+    400548: polySurface2618
+    400550: polySurface4705
+    400552: polySurface4705 1
+    400554: polySurface4705 2
+    400556: polySurface4706
+    400558: polySurface4707
+    400560: polySurface4708
+    400562: polySurface4709
+    400564: polySurface4710
+    400566: polySurface4711
+    400568: polySurface4712
+    400570: polySurface4713
+    400572: polySurface4714
+    400574: polySurface4715
+    400576: polySurface4716
+    400578: polySurface4717
+    400580: polySurface4718
+    400582: polySurface4719
+    400584: polySurface4720
+    400586: polySurface4721
+    400588: polySurface4722
+    400590: polySurface4723
+    400592: polySurface4724
+    400594: polySurface4725
+    400596: polySurface4726
+    400598: polySurface4727
+    400600: polySurface4728
+    400602: polySurface4729
+    400604: polySurface4730
+    400606: polySurface4731
+    400608: polySurface4732
+    400610: polySurface4733
+    400612: polySurface4734
+    400614: polySurface4735
+    400616: polySurface4736
+    400618: polySurface4737
+    400620: polySurface4738
+    400622: polySurface4739
+    400624: polySurface4740
+    400626: pPlane1
+    400628: pPlane2
+    400630: pSphere1
+    400632: transform1
+    400634: transform10
+    400636: transform11
+    400638: transform12
+    400640: transform13
+    400642: transform14
+    400644: transform15
+    400646: transform16
+    400648: transform17
+    400650: transform18
+    400652: transform19
+    400654: transform2
+    400656: transform20
+    400658: transform21
+    400660: transform22
+    400662: transform23
+    400664: transform24
+    400666: transform25
+    400668: transform26
+    400670: transform27
+    400672: transform28
+    400674: transform29
+    400676: transform3
+    400678: transform30
+    400680: transform31
+    400682: transform32
+    400684: transform33
+    400686: transform34
+    400688: transform35
+    400690: transform36
+    400692: transform37
+    400694: transform38
+    400696: transform39
+    400698: transform4
+    400700: transform40
+    400702: transform5
+    400704: transform6
+    400706: transform7
+    400708: transform8
+    400710: transform9
+    2300000: pCube1
+    2300002: polySurface4705
+    2300004: polySurface4705 1
+    2300006: polySurface4705 2
+    2300008: polySurface4738
+    2300010: polySurface4739
+    2300012: polySurface4740
+    2300014: pPlane1
+    2300016: pPlane2
+    2300018: pSphere1
+    3300000: pCube1
+    3300002: polySurface4705
+    3300004: polySurface4705 1
+    3300006: polySurface4705 2
+    3300008: polySurface4738
+    3300010: polySurface4739
+    3300012: polySurface4740
+    3300014: pPlane1
+    3300016: pPlane2
+    3300018: pSphere1
+    4300000: pCube1
+    4300002: pSphere1
+    4300004: pPlane1
+    4300006: pPlane2
+    4300008: polySurface4705
+    4300010: polySurface4739
+    4300012: polySurface4705
+    4300014: polySurface4740
+    4300016: polySurface4705
+    4300018: polySurface4738
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

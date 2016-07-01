@@ -1,0 +1,355 @@
+fileFormatVersion: 2
+guid: df79c0c17e11840659f84f948135aadc
+timeCreated: 1467155193
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BEACH_Scene
+    100002: //RootNode
+    100004: Land
+    100006: Leaves
+    100008: Leaves 1
+    100010: Leaves 10
+    100012: Leaves 11
+    100014: Leaves 12
+    100016: Leaves 2
+    100018: Leaves 3
+    100020: Leaves 4
+    100022: Leaves 5
+    100024: Leaves 6
+    100026: Leaves 7
+    100028: Leaves 8
+    100030: Leaves 9
+    100032: Palm1
+    100034: Palm10
+    100036: Palm11
+    100038: Palm12
+    100040: Palm13
+    100042: Palm2
+    100044: Palm3
+    100046: Palm4
+    100048: Palm5
+    100050: Palm6
+    100052: Palm7
+    100054: Palm8
+    100056: Palm9
+    100058: Palms
+    100060: persp1
+    100062: POV_Offset
+    100064: Rock_Cam06_
+    100066: Rock_Cam06_1
+    100068: Rock_Cam06_10
+    100070: Rock_Cam06_11
+    100072: Rock_Cam06_12
+    100074: Rock_Cam06_13
+    100076: Rock_Cam06_14
+    100078: Rock_Cam06_15
+    100080: Rock_Cam06_16
+    100082: Rock_Cam06_17
+    100084: Rock_Cam06_18
+    100086: Rock_Cam06_19
+    100088: Rock_Cam06_20
+    100090: Rock_Cam06_21
+    100092: Rock_Cam06_3
+    100094: Rock_Cam06_4
+    100096: Rock_Cam06_5
+    100098: Rock_Cam06_6
+    100100: Rock_Cam06_7
+    100102: Rock_Cam06_8
+    100104: ROCKS
+    100106: Sea
+    100108: SkyDome
+    100110: Trunc
+    100112: Trunc 1
+    100114: Trunc 10
+    100116: Trunc 11
+    100118: Trunc 12
+    100120: Trunc 2
+    100122: Trunc 3
+    100124: Trunc 4
+    100126: Trunc 5
+    100128: Trunc 6
+    100130: Trunc 7
+    100132: Trunc 8
+    100134: Trunc 9
+    400000: BEACH_Scene
+    400002: //RootNode
+    400004: Land
+    400006: Leaves
+    400008: Leaves 1
+    400010: Leaves 10
+    400012: Leaves 11
+    400014: Leaves 12
+    400016: Leaves 2
+    400018: Leaves 3
+    400020: Leaves 4
+    400022: Leaves 5
+    400024: Leaves 6
+    400026: Leaves 7
+    400028: Leaves 8
+    400030: Leaves 9
+    400032: Palm1
+    400034: Palm10
+    400036: Palm11
+    400038: Palm12
+    400040: Palm13
+    400042: Palm2
+    400044: Palm3
+    400046: Palm4
+    400048: Palm5
+    400050: Palm6
+    400052: Palm7
+    400054: Palm8
+    400056: Palm9
+    400058: Palms
+    400060: persp1
+    400062: POV_Offset
+    400064: Rock_Cam06_
+    400066: Rock_Cam06_1
+    400068: Rock_Cam06_10
+    400070: Rock_Cam06_11
+    400072: Rock_Cam06_12
+    400074: Rock_Cam06_13
+    400076: Rock_Cam06_14
+    400078: Rock_Cam06_15
+    400080: Rock_Cam06_16
+    400082: Rock_Cam06_17
+    400084: Rock_Cam06_18
+    400086: Rock_Cam06_19
+    400088: Rock_Cam06_20
+    400090: Rock_Cam06_21
+    400092: Rock_Cam06_3
+    400094: Rock_Cam06_4
+    400096: Rock_Cam06_5
+    400098: Rock_Cam06_6
+    400100: Rock_Cam06_7
+    400102: Rock_Cam06_8
+    400104: ROCKS
+    400106: Sea
+    400108: SkyDome
+    400110: Trunc
+    400112: Trunc 1
+    400114: Trunc 10
+    400116: Trunc 11
+    400118: Trunc 12
+    400120: Trunc 2
+    400122: Trunc 3
+    400124: Trunc 4
+    400126: Trunc 5
+    400128: Trunc 6
+    400130: Trunc 7
+    400132: Trunc 8
+    400134: Trunc 9
+    2300000: Land
+    2300002: Leaves
+    2300004: Leaves 1
+    2300006: Leaves 10
+    2300008: Leaves 11
+    2300010: Leaves 12
+    2300012: Leaves 2
+    2300014: Leaves 3
+    2300016: Leaves 4
+    2300018: Leaves 5
+    2300020: Leaves 6
+    2300022: Leaves 7
+    2300024: Leaves 8
+    2300026: Leaves 9
+    2300028: Rock_Cam06_
+    2300030: Rock_Cam06_1
+    2300032: Rock_Cam06_10
+    2300034: Rock_Cam06_11
+    2300036: Rock_Cam06_12
+    2300038: Rock_Cam06_13
+    2300040: Rock_Cam06_14
+    2300042: Rock_Cam06_15
+    2300044: Rock_Cam06_16
+    2300046: Rock_Cam06_17
+    2300048: Rock_Cam06_18
+    2300050: Rock_Cam06_19
+    2300052: Rock_Cam06_20
+    2300054: Rock_Cam06_21
+    2300056: Rock_Cam06_3
+    2300058: Rock_Cam06_4
+    2300060: Rock_Cam06_5
+    2300062: Rock_Cam06_6
+    2300064: Rock_Cam06_7
+    2300066: Rock_Cam06_8
+    2300068: Sea
+    2300070: SkyDome
+    2300072: Trunc
+    2300074: Trunc 1
+    2300076: Trunc 10
+    2300078: Trunc 11
+    2300080: Trunc 12
+    2300082: Trunc 2
+    2300084: Trunc 3
+    2300086: Trunc 4
+    2300088: Trunc 5
+    2300090: Trunc 6
+    2300092: Trunc 7
+    2300094: Trunc 8
+    2300096: Trunc 9
+    3300000: Land
+    3300002: Leaves
+    3300004: Leaves 1
+    3300006: Leaves 10
+    3300008: Leaves 11
+    3300010: Leaves 12
+    3300012: Leaves 2
+    3300014: Leaves 3
+    3300016: Leaves 4
+    3300018: Leaves 5
+    3300020: Leaves 6
+    3300022: Leaves 7
+    3300024: Leaves 8
+    3300026: Leaves 9
+    3300028: Rock_Cam06_
+    3300030: Rock_Cam06_1
+    3300032: Rock_Cam06_10
+    3300034: Rock_Cam06_11
+    3300036: Rock_Cam06_12
+    3300038: Rock_Cam06_13
+    3300040: Rock_Cam06_14
+    3300042: Rock_Cam06_15
+    3300044: Rock_Cam06_16
+    3300046: Rock_Cam06_17
+    3300048: Rock_Cam06_18
+    3300050: Rock_Cam06_19
+    3300052: Rock_Cam06_20
+    3300054: Rock_Cam06_21
+    3300056: Rock_Cam06_3
+    3300058: Rock_Cam06_4
+    3300060: Rock_Cam06_5
+    3300062: Rock_Cam06_6
+    3300064: Rock_Cam06_7
+    3300066: Rock_Cam06_8
+    3300068: Sea
+    3300070: SkyDome
+    3300072: Trunc
+    3300074: Trunc 1
+    3300076: Trunc 10
+    3300078: Trunc 11
+    3300080: Trunc 12
+    3300082: Trunc 2
+    3300084: Trunc 3
+    3300086: Trunc 4
+    3300088: Trunc 5
+    3300090: Trunc 6
+    3300092: Trunc 7
+    3300094: Trunc 8
+    3300096: Trunc 9
+    4300000: SkyDome
+    4300002: Sea
+    4300004: Land
+    4300006: Trunc
+    4300008: Leaves
+    4300010: Trunc
+    4300012: Leaves
+    4300014: Trunc
+    4300016: Leaves
+    4300018: Trunc
+    4300020: Leaves
+    4300022: Trunc
+    4300024: Leaves
+    4300026: Trunc
+    4300028: Leaves
+    4300030: Trunc
+    4300032: Leaves
+    4300034: Trunc
+    4300036: Leaves
+    4300038: Trunc
+    4300040: Leaves
+    4300042: Trunc
+    4300044: Leaves
+    4300046: Trunc
+    4300048: Leaves
+    4300050: Trunc
+    4300052: Leaves
+    4300054: Trunc
+    4300056: Leaves
+    4300058: Rock_Cam06_8
+    4300060: Rock_Cam06_7
+    4300062: Rock_Cam06_6
+    4300064: Rock_Cam06_3
+    4300066: Rock_Cam06_1
+    4300068: Rock_Cam06_
+    4300070: Rock_Cam06_5
+    4300072: Rock_Cam06_4
+    4300074: Rock_Cam06_10
+    4300076: Rock_Cam06_11
+    4300078: Rock_Cam06_12
+    4300080: Rock_Cam06_13
+    4300082: Rock_Cam06_14
+    4300084: Rock_Cam06_15
+    4300086: Rock_Cam06_16
+    4300088: Rock_Cam06_17
+    4300090: Rock_Cam06_18
+    4300092: Rock_Cam06_19
+    4300094: Rock_Cam06_20
+    4300096: Rock_Cam06_21
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

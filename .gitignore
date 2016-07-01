@@ -1,9 +1,9 @@
-/Testing_Google-VR/[Tt]emp/
-/Testing_Google-VR/[Bb]uilds/
-/Testing_Google-VR/[Bb]uild/
-/Testing_Google-VR/Assets/AssetStoreTools*
-/Testing_Google-VR/[Ll]ibrary/
-/Testing_Google-VR/[Oo]bj/
+/VR_Adventure/[Tt]emp/
+/VR_Adventure/[Bb]uilds/
+/VR_Adventure/[Bb]uild/
+/VR_Adventure/Assets/AssetStoreTools*
+/VR_Adventure/[Ll]ibrary/
+/VR_Adventure/[Oo]bj/
 
 
 /[Ll]ibrary/
@@ -41,28 +41,8 @@ sysinfo.txt
 
 *.bin
 
-Testing_Google-VR/Library/metadata/00/00000000000000004000000000000000
+VR_Adventure/Library/
 
-Testing_Google-VR/Library/assetDatabase3
-
-Testing_Google-VR/Library/metadata/00/00000000000000009100000000000000
+VR_Adventure/Library
 
 *.dll
-
-Testing_Google-VR/Library/ShaderCache.db
-
-Testing_Google-VR/Library/ScriptMapper
-
-Testing_Google-VR/Library/ScriptAssemblies/Assembly-CSharp.dll.mdb
-
-Testing_Google-VR/Library/ScriptAssemblies/Assembly-CSharp.dll
-
-Testing_Google-VR/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll.mdb
-
-Testing_Google-VR/Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
-
-Testing_Google-VR/Library/metadata/00/00000000000000009100000000000000
-
-Testing_Google-VR/Library/metadata/00/00000000000000004000000000000000
-
-Testing_Google-VR/Library/assetDatabase3
