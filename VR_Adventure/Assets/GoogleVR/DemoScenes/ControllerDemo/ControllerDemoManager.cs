@@ -57,6 +57,7 @@ public class ControllerDemoManager : MonoBehaviour {
       if (Physics.Raycast(Vector3.zero, rayDirection, out hitInfo)) {
         if (hitInfo.collider && hitInfo.collider.gameObject) {
           SetSelectedObject(hitInfo.collider.gameObject);
+					Debug.Log("Hitinfo: "+ hitInfo.collider.gameObject);
         }
       } else {
         SetSelectedObject(null);
