@@ -70,6 +70,8 @@ public class GameController : MonoBehaviour, IGvrGazeResponder {
     direction.y = Mathf.Clamp(direction.y, 0.5f, 1f);
     float distance = 2 * Random.value + 1.5f;
 	HandleObject.transform.localPosition = direction * distance;
+		HandleObject.transform.localRotation = Quaternion.Euler(Vector3.zero);
+	
   }
 
   #region IGvrGazeResponder implementation
