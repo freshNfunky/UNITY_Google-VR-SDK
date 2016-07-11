@@ -80,6 +80,7 @@ public class GvrHead : MonoBehaviour {
   public event HeadUpdatedDelegate OnHeadUpdated;
 
   void Awake() {
+	Input.gyro.enabled = true;	
     GvrViewer.Create();
   }
 
