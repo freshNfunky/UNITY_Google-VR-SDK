@@ -29,7 +29,7 @@ public class ControllerDebugInfo : MonoBehaviour {
   void Update() {
     if (!text) return;
 
-    Vector3 euler = GvrController.Orientation.eulerAngles;
+    /*Vector3 euler = GvrController.Orientation.eulerAngles;
 
     text.text = string.Format(
       "STATE: {0}\n" +
@@ -73,6 +73,9 @@ public class ControllerDebugInfo : MonoBehaviour {
     }
     if (GvrController.Recentered) {
       Debug.Log("CONTROLLER EVENT: Recentered.");
-    }
+    }*/
+
+
+
   }
 }
